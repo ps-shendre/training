@@ -1,0 +1,20 @@
+Spring AOP= Aspect Oriented Programming
+Aspect   = class that contain cross cutting concerns.
+	1.Advice =Action that  should run at a specific time.
+		@Before
+		@After
+		@Around
+	2.PointCut  =Defines where advice should apply.
+		Example 
+		execution (*  com.msedcl.main.service.*.*(..)) --(for me- ..means any parameter)
+		*= return type of function
+		Package
+		* = class
+		* = method
+		(..) = any no of parameters
+	3.JoinPoint - Actual methd execution point
+It gives runtimke information like 
+a. method name
+b.argument
+c.argument values
+

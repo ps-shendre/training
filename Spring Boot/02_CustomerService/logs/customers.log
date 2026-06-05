@@ -1,0 +1,285 @@
+2026-06-01T16:19:58.117+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] com.msedcl.main.customer.Application     : Starting Application using Java 25.0.1 with PID 2504 (C:\Training\Spring Boot\02_CustomerService\target\classes started by Admin in C:\Training\Spring Boot\02_CustomerService)
+2026-06-01T16:19:58.118+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] com.msedcl.main.customer.Application     : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T16:19:58.256+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T16:19:58.266+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2026-06-01T16:19:58.337+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-01T16:19:58.337+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T16:19:58.338+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-01T16:19:58.358+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 239 ms
+2026-06-01T16:19:58.385+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-77 - Starting...
+2026-06-01T16:19:58.401+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-77 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c03cab4
+2026-06-01T16:19:58.401+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-77 - Start completed.
+2026-06-01T16:19:58.402+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-01T16:19:58.432+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T16:19:58.434+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/customer_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: customer_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01T16:19:58.463+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T16:19:58.464+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T16:19:58.530+05:30  WARN 2504 --- [02_CustomerService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-01T16:19:58.608+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-01T16:19:58.617+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] com.msedcl.main.customer.Application     : Started Application in 0.537 seconds (process running for 8527.647)
+2026-06-01T16:19:58.618+05:30  INFO 2504 --- [02_CustomerService] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-01T16:19:59.375+05:30  INFO 2504 --- [02_CustomerService] [RMI TCP Connection(295)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-06-01T16:19:59.375+05:30  INFO 2504 --- [02_CustomerService] [RMI TCP Connection(295)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01T16:19:59.377+05:30  INFO 2504 --- [02_CustomerService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-01T16:19:59.379+05:30  INFO 2504 --- [02_CustomerService] [RMI TCP Connection(295)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T16:19:59.380+05:30  INFO 2504 --- [02_CustomerService] [RMI TCP Connection(295)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-77 - Shutdown initiated...
+2026-06-01T16:19:59.383+05:30  INFO 2504 --- [02_CustomerService] [RMI TCP Connection(295)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-77 - Shutdown completed.
+2026-06-01T16:20:10.530+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] com.msedcl.main.customer.Application     : Starting Application using Java 25.0.1 with PID 9624 (C:\Training\Spring Boot\02_CustomerService\target\classes started by Admin in C:\Training\Spring Boot\02_CustomerService)
+2026-06-01T16:20:10.533+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] com.msedcl.main.customer.Application     : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T16:20:10.597+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-01T16:20:10.597+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-01T16:20:11.260+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T16:20:11.323+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2026-06-01T16:20:11.846+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-01T16:20:11.859+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T16:20:11.860+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-01T16:20:11.907+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1310 ms
+2026-06-01T16:20:12.071+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-01T16:20:12.540+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@402e54dc
+2026-06-01T16:20:12.543+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-01T16:20:12.576+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-01T16:20:12.632+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-01T16:20:13.149+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T16:20:13.262+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/customer_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: customer_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01T16:20:14.096+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T16:20:14.107+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T16:20:14.192+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-01T16:20:14.458+05:30  WARN 9624 --- [02_CustomerService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-01T16:20:14.787+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-01T16:20:14.794+05:30  INFO 9624 --- [02_CustomerService] [restartedMain] com.msedcl.main.customer.Application     : Started Application in 4.663 seconds (process running for 5.696)
+2026-06-01T16:44:24.734+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] com.msedcl.main.customer.Application     : Starting Application using Java 25.0.1 with PID 5568 (C:\Training\Spring Boot\02_CustomerService\target\classes started by Admin in C:\Training\Spring Boot\02_CustomerService)
+2026-06-01T16:44:24.737+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] com.msedcl.main.customer.Application     : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T16:44:24.794+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-01T16:44:24.794+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-01T16:44:25.552+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T16:44:25.611+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2026-06-01T16:44:26.154+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-01T16:44:26.170+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T16:44:26.170+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-01T16:44:26.222+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1428 ms
+2026-06-01T16:44:26.384+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-01T16:44:26.824+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4be8dbdf
+2026-06-01T16:44:26.826+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-01T16:44:26.860+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-01T16:44:26.917+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-01T16:44:27.446+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T16:44:27.555+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/customer_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: customer_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01T16:44:28.458+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T16:44:28.468+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T16:44:28.563+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-01T16:44:28.831+05:30  WARN 5568 --- [02_CustomerService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-01T16:44:29.235+05:30  WARN 5568 --- [02_CustomerService] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-06-01T16:44:29.237+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T16:44:29.240+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-01T16:44:29.254+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-01T16:44:29.282+05:30  INFO 5568 --- [02_CustomerService] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-01T16:44:29.299+05:30 ERROR 5568 --- [02_CustomerService] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-06-01T16:44:40.508+05:30  INFO 9624 --- [02_CustomerService] [RMI TCP Connection(34)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-06-01T16:44:40.512+05:30  INFO 9624 --- [02_CustomerService] [RMI TCP Connection(34)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01T16:44:40.515+05:30  INFO 9624 --- [02_CustomerService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-01T16:44:40.520+05:30  INFO 9624 --- [02_CustomerService] [RMI TCP Connection(34)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T16:44:40.524+05:30  INFO 9624 --- [02_CustomerService] [RMI TCP Connection(34)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-01T16:44:40.529+05:30  INFO 9624 --- [02_CustomerService] [RMI TCP Connection(34)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-01T16:44:47.834+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] com.msedcl.main.customer.Application     : Starting Application using Java 25.0.1 with PID 3528 (C:\Training\Spring Boot\02_CustomerService\target\classes started by Admin in C:\Training\Spring Boot\02_CustomerService)
+2026-06-01T16:44:47.837+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] com.msedcl.main.customer.Application     : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T16:44:47.901+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-01T16:44:47.902+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-01T16:44:48.540+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T16:44:48.607+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2026-06-01T16:44:49.122+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-01T16:44:49.136+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T16:44:49.137+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-01T16:44:49.190+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1288 ms
+2026-06-01T16:44:49.332+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-01T16:44:49.774+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e19a8a1
+2026-06-01T16:44:49.776+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-01T16:44:49.807+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-01T16:44:49.865+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-01T16:44:50.376+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T16:44:50.480+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/customer_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: customer_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01T16:44:51.443+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T16:44:51.454+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T16:44:51.547+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-01T16:44:51.828+05:30  WARN 3528 --- [02_CustomerService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-01T16:44:52.229+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-01T16:44:52.235+05:30  INFO 3528 --- [02_CustomerService] [restartedMain] com.msedcl.main.customer.Application     : Started Application in 4.787 seconds (process running for 5.484)
+2026-06-01T16:44:56.247+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-01T16:44:56.247+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-01T16:44:56.248+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-01T16:44:56.301+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : Request to retrive all customers details 
+2026-06-01T16:44:56.501+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : All customers retrive sucessfully
+2026-06-01T16:44:56.503+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=1234567890)
+2026-06-01T16:44:56.504+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=9876543210)
+2026-06-01T16:44:56.504+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=Roma jain, email=roam@gmail.com, mobileNumber=9856327411)
+2026-06-01T16:44:56.504+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=Roma jain, email=roam@gmail.com, mobileNumber=9856)
+2026-06-01T16:44:56.504+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=Roma jain, email=roma@gmail.com, mobileNumber=9856464646)
+2026-06-01T16:44:56.504+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=6, name=Urjaa Kanvilkar, email=abc@gmail.com, mobileNumber=9856464646)
+2026-06-01T16:44:56.504+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=7, name=Urjaa Kanvilkar, email=abc@gmail.com, mobileNumber=5454)
+2026-06-01T16:44:56.504+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=8, name=radhika, email=abc@gmail.com, mobileNumber=6844949487)
+2026-06-01T16:46:00.615+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : Request received  to retrive customer details
+2026-06-01T16:46:00.615+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : customer id ::2
+2026-06-01T16:46:00.635+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : Customer  find by customer id sucessfully
+2026-06-01T16:46:00.636+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=9876543210)
+2026-06-01T16:47:42.741+05:30  WARN 3528 --- [02_CustomerService] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.msedcl.main.customer.common.ApiResponse<com.msedcl.main.customer.dto.CustomerResponseDTO>> com.msedcl.main.customer.controller.CustomerController.addNewCustomer(com.msedcl.main.customer.dto.CustomerRequestDTO)]
+2026-06-01T16:48:43.664+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : Request received  to retrive customer details
+2026-06-01T16:48:43.665+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : customer id ::2
+2026-06-01T16:48:43.670+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : Customer  find by customer id sucessfully
+2026-06-01T16:48:43.670+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=9876543210)
+2026-06-01T16:51:47.102+05:30  WARN 3528 --- [02_CustomerService] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.msedcl.main.customer.common.ApiResponse<com.msedcl.main.customer.dto.CustomerResponseDTO>> com.msedcl.main.customer.controller.CustomerController.addNewCustomer(com.msedcl.main.customer.dto.CustomerRequestDTO): [Field error in object 'customerRequestDTO' on field 'mobileNumber': rejected value [5454]; codes [Length.customerRequestDTO.mobileNumber,Length.mobileNumber,Length.java.lang.String,Length]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customerRequestDTO.mobileNumber,mobileNumber]; arguments []; default message [mobileNumber],13,10]; default message [length must be between 10 and 13]] ]
+2026-06-01T16:51:57.636+05:30  WARN 3528 --- [02_CustomerService] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.msedcl.main.customer.common.ApiResponse<com.msedcl.main.customer.dto.CustomerResponseDTO>> com.msedcl.main.customer.controller.CustomerController.addNewCustomer(com.msedcl.main.customer.dto.CustomerRequestDTO): [Field error in object 'customerRequestDTO' on field 'mobileNumber': rejected value [986532456]; codes [Length.customerRequestDTO.mobileNumber,Length.mobileNumber,Length.java.lang.String,Length]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customerRequestDTO.mobileNumber,mobileNumber]; arguments []; default message [mobileNumber],13,10]; default message [length must be between 10 and 13]] ]
+2026-06-01T16:52:02.557+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : request received to add new customer
+2026-06-01T16:52:02.557+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerRequestDTO(name=Pooja Kanvilkar, email=abc@gmail.com, mobileNumber=98653245623)
+2026-06-01T16:52:02.658+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : New customer added sucessfully
+2026-06-01T16:52:02.658+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=9, name=Pooja Kanvilkar, email=abc@gmail.com, mobileNumber=98653245623)
+2026-06-01T16:53:36.688+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : Request received  to retrive customer details fro emails
+2026-06-01T16:53:36.689+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : eamil id ::abc@gmail.com
+2026-06-01T16:53:36.937+05:30 ERROR 3528 --- [02_CustomerService] [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 4 results were returned] with root cause
+
+org.hibernate.NonUniqueResultException: Query did not return a unique result: 4 results were returned
+	at org.hibernate.query.spi.AbstractSelectionQuery.uniqueElement(AbstractSelectionQuery.java:315) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResultOrNull(AbstractSelectionQuery.java:330) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:328) ~[spring-data-jpa-4.0.5.jar:4.0.5]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:99) ~[spring-data-jpa-4.0.5.jar:4.0.5]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:164) ~[spring-data-jpa-4.0.5.jar:4.0.5]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:154) ~[spring-data-jpa-4.0.5.jar:4.0.5]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169) ~[spring-data-commons-4.0.5.jar:4.0.5]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-4.0.5.jar:4.0.5]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:167) ~[spring-data-commons-4.0.5.jar:4.0.5]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146) ~[spring-data-commons-4.0.5.jar:4.0.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-4.0.5.jar:4.0.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:137) ~[spring-data-jpa-4.0.5.jar:4.0.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222) ~[spring-aop-7.0.7.jar:7.0.7]
+	at jdk.proxy4/jdk.proxy4.$Proxy147.findByEmail(Unknown Source) ~[na:na]
+	at com.msedcl.main.customer.service.CustomerServiceImpl.getCustomerByEmail(CustomerServiceImpl.java:67) ~[classes/:na]
+	at com.msedcl.main.customer.controller.CustomerController.getConsumerByEmail(CustomerController.java:68) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172) ~[spring-context-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.7.jar:7.0.7]
+	at com.msedcl.main.customer.controller.CustomerController$$SpringCGLIB$$0.getConsumerByEmail(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.21.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.21.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]
+
+2026-06-01T16:54:04.954+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : Request received  to retrive customer details fro emails
+2026-06-01T16:54:04.954+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : eamil id ::reema@gmail.com
+2026-06-01T16:54:04.960+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : Email id found successfull
+2026-06-01T16:54:04.960+05:30  INFO 3528 --- [02_CustomerService] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=1234567890)
+2026-06-01T16:59:44.194+05:30  INFO 3528 --- [02_CustomerService] [RMI TCP Connection(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-06-01T16:59:44.198+05:30  INFO 3528 --- [02_CustomerService] [RMI TCP Connection(24)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01T16:59:44.201+05:30  INFO 3528 --- [02_CustomerService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-01T16:59:44.205+05:30  INFO 3528 --- [02_CustomerService] [RMI TCP Connection(24)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T16:59:44.209+05:30  INFO 3528 --- [02_CustomerService] [RMI TCP Connection(24)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-01T16:59:44.214+05:30  INFO 3528 --- [02_CustomerService] [RMI TCP Connection(24)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
